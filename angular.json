@@ -30,7 +30,12 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/ngx-blockly/scripts/blockly/blockly_compressed.js",
+              "node_modules/ngx-blockly/scripts/blockly/blocks_compressed.js",
+              "node_modules/ngx-blockly/scripts/blockly/javascript_compressed.js",
+              "node_modules/ngx-blockly/scripts/blockly/msg/js/ja.js"
+            ]
           },
           "configurations": {
             "production": {

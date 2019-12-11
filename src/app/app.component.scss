@@ -1,0 +1,17 @@
+.visual-logo-app {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.turtle-canvas {
+    display: table-cell;
+    width: 512px;
+}
+.turtle-program {
+    display: table-cell;
+}
+ngx-blockly {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

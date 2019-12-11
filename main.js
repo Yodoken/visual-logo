@@ -1,4 +1,7 @@
+'use strict';
+
 const { app, BrowserWindow } = require("electron");
+const appExpress = require("./app");
 const url = require("url");
 const path = require("path");
 
@@ -14,12 +17,13 @@ function createWindow () {
     }
   });
 
-  var p = url.format({
-      pathname: path.join(__dirname, `/dist/visual-logo/index.html`),
-      protocol: "file:",
-      slashes: true
-    }
-  );
+  //var p = url.format({
+  //    pathname: path.join(__dirname, `/dist/visual-logo/index.html`),
+  //    protocol: "file:",
+  //    slashes: true
+  //  }
+  //);
+  var p = "http://localhost:3000/dist/visual-logo/index.html";
   console.log(p);
   win.loadURL(p);
 
